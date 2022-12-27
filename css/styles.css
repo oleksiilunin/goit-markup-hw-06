@@ -893,15 +893,15 @@ p {
 
 .footer-socials .link {
     background-color: var(--footer-icon-bcg-color);
-}
-
-.footer-socials .link:hover,
-.footer-socials .link:focus {
-    background-color: var(--accent-color);
 
     transition-property: background-color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-socials .link:hover,
+.footer-socials .link:focus {
+    background-color: var(--accent-color);   
 }
 
 .footer-socials .icon {
@@ -977,6 +977,10 @@ p {
     fill: var(--modal-icon-close-fill);
     
     cursor: pointer;
+
+    transition-property: fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .btn-close:hover {
@@ -1010,10 +1014,6 @@ p {
     color: var(--primary-text-color);
 }
 
-.form-field-label:hover {
-    
-}
-
 .form-field-input {
     width: 100%;
     height: 40px;
@@ -1023,6 +1023,10 @@ p {
     border-radius: 4px;
 
     cursor: pointer;
+
+    transition-property: border-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .form-field-input:focus {
@@ -1054,6 +1058,10 @@ p {
     cursor: pointer;
 
     resize: none;
+
+    transition-property: border-color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .form-field-textarea:focus {
