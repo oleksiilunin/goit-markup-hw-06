@@ -957,14 +957,11 @@ p {
     transform: scale(0.6);
 }
 
-.box-close {
+.btn-close {
     display: flex;
     justify-content: center;
     align-items: center;
-    
-}
 
-.btn-close {
     position: absolute;
     top: 8px;
     right: 8px;
