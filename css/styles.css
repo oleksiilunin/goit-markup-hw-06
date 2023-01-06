@@ -939,8 +939,7 @@ p {
     position: relative;
     width: 100%;
     max-width: 528px;
-    height: 100%;
-    max-height: 581px;
+    height: 100%;    
     padding: 40px;
         
     background-color: var(--main-background-color);
