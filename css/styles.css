@@ -548,7 +548,7 @@ p {
 
         /*Filter Portfolio*/
 
-.filter-list {
+.projects__filter-list {
     display: flex;
     justify-content: center;
     gap:  8px;
@@ -558,34 +558,17 @@ p {
 
         /*Projects Portfolio*/
 
-.projects-list {
+.projects__list {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
 }
 
-.projects-list .projects-card {
+/* .projects__item {
     flex-basis: calc((100% - 2*30px) / 3);
-}
+} */
 
-.projects .title {
-    color: var(--secondary-text-color);
-
-    font-size: 18px;
-    line-height: 2;    
-    letter-spacing: 0.06em;
-}
-
-.projects .type {
-    color: var(--primary-text-color);
-
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.88;
-    letter-spacing: 0.03em;
-}
-
-.projects .caption {
+.project__caption {
     padding: 20px 24px;
 
     width: 370px;
@@ -594,7 +577,24 @@ p {
     border-bottom: 1px solid var(--project-caption-border-color);
 }
 
-.projects-card .link{ 
+.project__title {
+    color: var(--secondary-text-color);
+
+    font-size: 18px;
+    line-height: 2;    
+    letter-spacing: 0.06em;
+}
+
+.project__type {
+    color: var(--primary-text-color);
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+}
+
+.project__link  { 
     display: block;
 
     transition-property: box-shadow;
@@ -602,25 +602,25 @@ p {
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);    
 }
 
-.projects-card .link:hover,
-.projects-card .link:focus {
+.project__link:hover,
+.project__link:focus {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
-.projects-card .img {
+.projects__img {
     display: block;
     
     max-width: 100%;
     height: auto;
 }
 
-.projects .box-overlay {
+.project__box-overlay {
     position: relative;
 
     overflow: hidden;
 }
 
-.projects .card-overlay {
+.project__card-overlay {
     position: absolute;
     display: flex;
     align-items: center;
@@ -643,7 +643,7 @@ p {
     letter-spacing: 0.03em;
 }
 
-.projects-card:hover .card-overlay {
+.project-card:hover .project__card-overlay {
     transform: translateY(0);
 }
 
