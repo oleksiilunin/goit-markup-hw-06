@@ -46,7 +46,7 @@
             <div class="container">
                 <h1 class="visually-hidden">Проєкти</h1>
             <!--Фільтри до проєктів-->
-                <ul class="projects__filter-list list">
+                <ul class="filter-list list">
                     <li><button type="button" class="btn-filter">Усі</button></li>
                     <li><button type="button" class="btn-filter">Веб-сайти</button></li>
                     <li><button type="button" class="btn-filter">Додатки</button></li>
@@ -55,132 +55,114 @@
                 </ul>
 
             <!--Проєкти-->
-                <ul class="projects__list list">
-                    <li class="projects__item">
-                        <div class="project-card">
-                            <a href="#" class="project__link link">
-                                <div class="project__box-overlay">
-                                    <img class="project__img" width="370" src="./images/tekhnokriak.jpg" alt="Ноутбук з веб-сторінкою сайту на екрані.">
-                                    <p class="project__card-overlay">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
-                                </div>
-                                <div class="project__caption">
-                                    <h2 class="project__title">Технокряк</h2>
-                                    <p class="project__type">Веб-сайт</p>
-                                </div>                            
-                            </a>
-                        </div>
+                <ul class="projects-list list">
+                    <li class="projects-card">
+                        <a href="#" class="link">
+                            <div class="box-overlay">
+                                <img class="img" width="370" src="./images/tekhnokriak.jpg" alt="Ноутбук з веб-сторінкою сайту на екрані.">
+                                <p class="card-overlay">Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати вичерпні відомості про компанію чи приватну особу.</p>
+                            </div>
+                            <div class="caption">
+                                <h2 class="title">Технокряк</h2>
+                                <p class="type">Веб-сайт</p>
+                            </div>                            
+                        </a>  
                     </li>
-                    <li class="projects__item">
-                        <div class="project-card">
-                            <a href="#" class="project__link link">
-                                <div class="project__box-overlay">
-                                    <img class="project__img" width="370" src="./images/poster-new-orlean-vs-golden-star.jpg" alt="Два баскетболіста борються за м'яч.">
-                                    <p class="project__card-overlay">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique aliquam quae provident earum exercitationem amet ab reprehenderit, minima ullam, quia ipsum iste velit tenetur eaque. Adipisci eaque expedita odit cum!</p>
-                                </div>
-                            <div class="project__caption">
-                            <h2 class="project__title">Постер <span lang="en">New Orlean vs Golden Star</span></h2>
-                            <p class="project__type">Дизайн</p>
+                    <li class="projects-card">
+                        <a href="#" class="link">
+                            <div class="box-overlay">
+                                <img class="img" width="370" src="./images/poster-new-orlean-vs-golden-star.jpg" alt="Два баскетболіста борються за м'яч.">
+                                <p class="card-overlay">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique aliquam quae provident earum exercitationem amet ab reprehenderit, minima ullam, quia ipsum iste velit tenetur eaque. Adipisci eaque expedita odit cum!</p>
+                            </div>
+                        <div class="caption">
+                            <h2 class="title">Постер <span lang="en">New Orlean vs Golden Star</span></h2>
+                            <p class="type">Дизайн</p>
                         </div>
                         </a>
-                        </div>
                     </li>
-                    <li class="projects__item">
-                       <div class="project-card">
-                           <a href="#" class="project__link link">
-                                <div class="project__box-overlay">
-                                    <img class="project__img" width="370" src="./images/restoran-seafood.jpg" alt="На фоні риби напис The Seafood est.2001 restaurant.">
-                                    <p class="project__card-overlay">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique aliquam quae provident earum exercitationem amet ab reprehenderit, minima ullam, quia ipsum iste velit tenetur eaque. Adipisci eaque expedita odit cum!</p>
-                                </div>
-                                <div class="project__caption">
-                                    <h2 class="project__title">Ресторан <span lang="en">Seafood</span></h2>  
-                                    <p class="project__type">Додаток</p>
-                                </div>            
-                            </a>
-                       </div>
+                    <li class="projects-card">
+                        <a href="#" class="link">
+                            <div class="box-overlay">
+                                <img class="img" width="370" src="./images/restoran-seafood.jpg" alt="На фоні риби напис The Seafood est.2001 restaurant.">
+                                <p class="card-overlay">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique aliquam quae provident earum exercitationem amet ab reprehenderit, minima ullam, quia ipsum iste velit tenetur eaque. Adipisci eaque expedita odit cum!</p>
+                            </div>
+                            <div class="caption">
+                                <h2 class="title">Ресторан <span lang="en">Seafood</span></h2>  
+                                <p class="type">Додаток</p>
+                            </div>            
+                        </a>
                     </li>
-                    <li class="projects__item">
-                        <div class="project-card">
-                            <a href="#" class="project__link link">
-                                <div class="project__box-overlay">
-                                    <img class="project__img" width="370" src="./images/proekt-prime.jpg" alt="Великі накладні чорні навушники на білому фоні.">
-                                    <p class="project__card-overlay">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique aliquam quae provident earum exercitationem amet ab reprehenderit, minima ullam, quia ipsum iste velit tenetur eaque. Adipisci eaque expedita odit cum!</p>
-                                </div>
-                                <div class="project__caption">
-                                    <h2 class="project__title">Проєкт <span lang="en">Prime</span></h2>
-                                    <p class="project__type">Маркетинг</p>
-                                </div>
-                            </a>
-                        </div>
+                    <li class="projects-card">
+                        <a href="#" class="link">
+                            <div class="box-overlay">
+                                <img class="img" width="370" src="./images/proekt-prime.jpg" alt="Великі накладні чорні навушники на білому фоні.">
+                                <p class="card-overlay">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique aliquam quae provident earum exercitationem amet ab reprehenderit, minima ullam, quia ipsum iste velit tenetur eaque. Adipisci eaque expedita odit cum!</p>
+                            </div>
+                            <div class="caption">
+                                <h2 class="title">Проєкт <span lang="en">Prime</span></h2>
+                                <p class="type">Маркетинг</p>
+                            </div>
+                        </a>
                     </li>
-                    <li class="projects__item">
-                        <div class="project-card">
-                            <a href="#" class="project__link link">
-                                <div class="project__box-overlay">
-                                    <img class="project__img" width="370" src="./images/proekt-boxes.jpg" alt="Дві коробочки білого та світло-коричньового кольорівю.">
-                                    <p class="project__card-overlay">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique aliquam quae provident earum exercitationem amet ab reprehenderit, minima ullam, quia ipsum iste velit tenetur eaque. Adipisci eaque expedita odit cum!</p>
-                                </div>
-                                <div class="project__caption">
-                                    <h2 class="project__title">Проєкт <span lang="en">Boxes</span></h2>
-                                    <p class="project__type">Додаток</p>
-                                </div>   
-                            </a>
-                        </div>
+                    <li class="projects-card">
+                        <a href="#" class="link">
+                            <div class="box-overlay">
+                                <img class="img" width="370" src="./images/proekt-boxes.jpg" alt="Дві коробочки білого та світло-коричньового кольорівю.">
+                                <p class="card-overlay">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique aliquam quae provident earum exercitationem amet ab reprehenderit, minima ullam, quia ipsum iste velit tenetur eaque. Adipisci eaque expedita odit cum!</p>
+                            </div>
+                            <div class="caption">
+                                <h2 class="title">Проєкт <span lang="en">Boxes</span></h2>
+                                <p class="type">Додаток</p>
+                            </div>   
+                        </a>
                     </li>
-                    <li class="projects__item">
-                        <div class="project-card">
-                            <a href="#" class="project__link link">
-                                <div class="project__box-overlay">
-                                    <img class="project__img" width="370" src="./images/inspiration-has-no-borders.jpg" alt="Моноблок Apple iMac, на екрані якого сайт з великим написом Inspiration has no Borders">
-                                    <p class="project__card-overlay">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique aliquam quae provident earum exercitationem amet ab reprehenderit, minima ullam, quia ipsum iste velit tenetur eaque. Adipisci eaque expedita odit cum!</p>
-                                </div>
-                                <div class="project__caption">
-                                    <h2 class="project__title"><span lang="en">Inspiration has no Borders</span></h2>
-                                    <p class="project__type">Веб-сайт</p>
-                                </div>
-                            </a>
-                        </div>
+                    <li class="projects-card">
+                        <a href="#" class="link">
+                            <div class="box-overlay">
+                                <img class="img" width="370" src="./images/inspiration-has-no-borders.jpg" alt="Моноблок Apple iMac, на екрані якого сайт з великим написом Inspiration has no Borders">
+                                <p class="card-overlay">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique aliquam quae provident earum exercitationem amet ab reprehenderit, minima ullam, quia ipsum iste velit tenetur eaque. Adipisci eaque expedita odit cum!</p>
+                            </div>
+                            <div class="caption">
+                                <h2 class="title"><span lang="en">Inspiration has no Borders</span></h2>
+                                <p class="type">Веб-сайт</p>
+                            </div>
+                        </a>
                     </li>
-                    <li class="projects__item">
-                        <div class="project-card">
-                            <a href="#" class="project__link link">
-                                <div class="project__box-overlay">
-                                    <img class="project__img" width="370" src="./images/vydannia-limited-edition.jpg" alt="Журнал, розкритий на сторінці зі слоганом I'm Limited Edition ">
-                                    <p class="project__card-overlay">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique aliquam quae provident earum exercitationem amet ab reprehenderit, minima ullam, quia ipsum iste velit tenetur eaque. Adipisci eaque expedita odit cum!</p>
-                                </div>
-                                <div class="project__caption">
-                                    <h2 class="project__title">Видання <span lang="en">Limited Edition</span></h2>
-                                    <p class="project__type">Дизайн</p>
-                                </div>
-                            </a>
-                        </div>
+                    <li class="projects-card">
+                        <a href="#" class="link">
+                            <div class="box-overlay">
+                                <img class="img" width="370" src="./images/vydannia-limited-edition.jpg" alt="Журнал, розкритий на сторінці зі слоганом I'm Limited Edition ">
+                                <p class="card-overlay">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique aliquam quae provident earum exercitationem amet ab reprehenderit, minima ullam, quia ipsum iste velit tenetur eaque. Adipisci eaque expedita odit cum!</p>
+                            </div>
+                            <div class="caption">
+                                <h2 class="title">Видання <span lang="en">Limited Edition</span></h2>
+                                <p class="type">Дизайн</p>
+                            </div>
+                        </a>
                     </li>
-                    <li class="projects__item">
-                        <div class="project-card">
-                            <a href="#" class="project__link link">
-                                <div class="project__box-overlay">
-                                    <img class="project__img" width="370" src="./images/proekt-lab.jpg" alt="Біла бирка на мотузці з написом LABEL TAG PSD Mockup">
-                                    <p class="project__card-overlay">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique aliquam quae provident earum exercitationem amet ab reprehenderit, minima ullam, quia ipsum iste velit tenetur eaque. Adipisci eaque expedita odit cum!</p>
-                                </div>
-                                <div class="project__caption">
-                                    <h2 class="project__title">Проєкт <span lang="en">LAB</span></h2>
-                                    <p class="project__type">Маркетинг</p>
-                                </div>
-                            </a>
-                        </div>
+                    <li class="projects-card">
+                        <a href="#" class="link">
+                            <div class="box-overlay">
+                                <img class="img" width="370" src="./images/proekt-lab.jpg" alt="Біла бирка на мотузці з написом LABEL TAG PSD Mockup">
+                                <p class="card-overlay">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique aliquam quae provident earum exercitationem amet ab reprehenderit, minima ullam, quia ipsum iste velit tenetur eaque. Adipisci eaque expedita odit cum!</p>
+                            </div>
+                            <div class="caption">
+                                <h2 class="title">Проєкт <span lang="en">LAB</span></h2>
+                                <p class="type">Маркетинг</p>
+                            </div>
+                        </a>
                     </li>
-                    <li class="projects__item">
-                        <div class="project-card">
-                            <a href="#" class="project__link link">
-                                <div class="project__box-overlay">
-                                    <img class="project__img" width="370" src="./images/growing-business.jpg" alt="Ноутбук з відкритою веб-сторінкою з написом GROWING BUSINESS">
-                                    <p class="project__card-overlay">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique aliquam quae provident earum exercitationem amet ab reprehenderit, minima ullam, quia ipsum iste velit tenetur eaque. Adipisci eaque expedita odit cum!</p>
-                                </div>
-                                <div class="project__caption">
-                                    <h2 class="project__title"><span lang="en">Growing Business</span></h2>
-                                    <p class="project__type">Додаток</p>
-                                </div>
-                            </a>
-                        </div>
+                    <li class="projects-card">
+                        <a href="#" class="link">
+                            <div class="box-overlay">
+                                <img class="img" width="370" src="./images/growing-business.jpg" alt="Ноутбук з відкритою веб-сторінкою з написом GROWING BUSINESS">
+                                <p class="card-overlay">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique aliquam quae provident earum exercitationem amet ab reprehenderit, minima ullam, quia ipsum iste velit tenetur eaque. Adipisci eaque expedita odit cum!</p>
+                            </div>
+                            <div class="caption">
+                                <h2 class="title"><span lang="en">Growing Business</span></h2>
+                                <p class="type">Додаток</p>
+                            </div>
+                        </a>
                     </li>
                 </ul>
             </div>
